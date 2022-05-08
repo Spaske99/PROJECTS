@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Broj Plocica</h2>
+    <fieldset style="width: 200px;">
+    <form action="zadatak2.php" method="GET" target="zadatak2">
+        <fieldset style="width: 200px;">
+            <legend><strong>Z I D</strong></legend>
+            <label for="sirina_z"><strong>Sirina (cm) : </strong><span style="color: red;">*</span></label><br>
+            <input type="number" id="sirina_z" name="sirina_z" placeholder="Unesite sirinu zida" style="width:195px;"><br>
+            <label for="visina_z"><strong>Visina (cm) : </strong><span style="color: red;">*</span></label><br>
+            <input type="number" id="visina_z" name="visina_z" placeholder="Unesite visinu zida" style="width:195px;"><br>
+        </fieldset><br>
+        
+        <fieldset style="width: 200px;">
+            <legend><strong>P L O C I C A</strong></legend>
+            <label for="sirina_p"><strong>Sirina (cm) : </strong><span style="color: red;">*</span></label><br>
+            <input type="number" id="sirina_p" name="sirina_p" placeholder="Unesite sirinu plocice" style="width:195px;"><br>
+            <label for="duzina_p"><strong>Duzina (cm) : </strong><span style="color: red;">*</span></label><br>
+            <input type="number" id="duzina_p" name="duzina_p" placeholder="Unesite duzinu plocice" style="width:195px;"><br>
+        </fieldset><br>
+        
+        <fieldset style="width: 200px;">
+            <legend><strong>R E Z U L T A T</strong></legend>
+            <iframe name="zadatak2" style="width: 200px; height: 90px;"></iframe>
+        </fieldset><br>
+
+        <button type="submit">Izracunaj</button>
+        <button type="reset">Obrisi</button>
+
+    </form>
+    </fieldset>
+</body>
+</html>
