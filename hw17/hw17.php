@@ -45,7 +45,7 @@ $users = [
 
 ];
     
-$searchContent= "en"; // UNETA VREDNOST
+$searchContent= "o"; // UNETA VREDNOST
 $result = search_users($users, $searchContent);
     
 foreach($result as $v){
