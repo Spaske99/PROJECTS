@@ -1,8 +1,6 @@
 <?php
 
-
 include ('db.php');
-
 
 class UserMessage extends DB { //nas korisnik, korisnik koga pravimo, registrujemp, extend db da bi moglo da se povezuje sa bazom
 
@@ -18,6 +16,5 @@ class UserMessage extends DB { //nas korisnik, korisnik koga pravimo, registruje
         }
     }
 }
-
 
 ?>

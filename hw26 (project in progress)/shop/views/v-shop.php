@@ -3,17 +3,13 @@
     <div class="container">
       <form class="row" action="./all-products-page.php" method="get">
         <div class="input-group mb-3">
-
           <input class="form-control text-center" type="search" placeholder="Search" name="filter" value="<?php echo htmlspecialchars($filter); ?>">
-
           <select class="btn btn-light sort" name="sort-by">
             <option selected value=""><i class="fa-solid fa-arrow-down-short-wide">Non</i></option>
             <option <?php if($sort == ORDER_BY_PRICE_ASC) { echo htmlspecialchars("Selected"); } ?> value="<?php echo htmlspecialchars(ORDER_BY_PRICE_ASC); ?>">Asc</option>
             <option <?php if($sort == ORDER_BY_PRICE_DSC) { echo htmlspecialchars("Selected"); } ?> value="<?php echo htmlspecialchars(ORDER_BY_PRICE_DSC); ?>">Desc<i class="fa-solid fa-arrow-down-short-wide"></i></option>
-          </select>
-          
+          </select>       
           <button type="submit" class="btn btn-primary" type="button" id="button-addon2">Search</button>
-
         </div>
       </form> 
     </div>   

@@ -1,5 +1,4 @@
 <?php
-// echo htmlspecialchars();
 session_start();
 require_once __DIR__ . '/models/shop-model.php';
 

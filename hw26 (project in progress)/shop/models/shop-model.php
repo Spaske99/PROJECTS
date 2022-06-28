@@ -391,16 +391,4 @@ function getPrevProduct($currentProductId) {
     }
 }
 
-
-// function getOneProductById($id) {
-//     global $products;
-
-//     foreach($products as $product) {
-//         if($product['id'] == $id) {
-//             return $product;
-//         }
-//     }
-// }
-
-
 ?>

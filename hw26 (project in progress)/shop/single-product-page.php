@@ -12,7 +12,6 @@ $prev = getPrevProduct($productId);
 
 $relatedProducts = getRelatedProducs($product);
 
-
 // HEADER
 require __DIR__ . "/views/_layout/v-header.php";
 

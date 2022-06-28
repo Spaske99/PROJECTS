@@ -3,7 +3,6 @@ session_start();
 require_once __DIR__ . "/models/shop-model.php";
 require_once __DIR__ . "/models/shopping-cart-model.php";
 
-
 $index='index';
 $popular = getPopularProducts();
 

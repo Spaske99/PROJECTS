@@ -13,13 +13,6 @@ $price = $choosen_product['price'];
 $total_price = $quantity * $price;
 $alt = $choosen_product['category'];
 
-// $title is two words and when I send it thrue input value I just 
-// get first word. Solution: replace space char with &nbsp;
-// But now can not wrap in htmlspecialchars()...
-// POSALJI ID PA IZVUCI TITLE
-// $title_as_input_value = str_replace(' ', '&nbsp;', $title);
-
-
 require __DIR__ . '/views/_layout/v-header.php';
 
 require __DIR__ . '/views/v-checkout_page.php';

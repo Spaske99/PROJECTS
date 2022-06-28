@@ -9,5 +9,4 @@ require __DIR__ . "/views/v-news.php";
 // FOOTER
 require __DIR__ . "/views/_layout/v-footer.php";
 
-
 ?>

@@ -57,7 +57,7 @@
                       <input type="hidden" name="title" value=<?php echo htmlspecialchars($id); ?>>
                       <button class="btn btn-outline-light w-100 mt-3" type="submit">ORDER</button>
                   </form>
-              </div><!--end of col-->
+              </div>
               <div class="col-md-4 p-3">
                 <div class="card mx-auto mb-3 ml-5" style="max-width: 540px;">           
                     <img src=<?php echo htmlspecialchars($img); ?> class="img-fluid rounded-start" alt=<?php echo htmlspecialchars($alt); ?> />
@@ -84,8 +84,8 @@
                         </p>
                     </div>            
                 </div>
-              </div><!--end of col-->
-            </div> <!--end of row-->    
-        </div> <!--end of container-->   
+              </div>
+            </div>    
+        </div>   
     </main>
 </div>
